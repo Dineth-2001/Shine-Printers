@@ -6,7 +6,7 @@ import java.io.IOException;
 class Computer extends Thread {
     String name;
     
-    // Method to create read a text file and add the content into a TextFile object
+    // Method to read a text file and add the content into a TextFile object
     public static TextFile ReadAFile(String filePath) {
         StringBuilder contentBuilder = new StringBuilder(); // Object to append the content of the file
         
